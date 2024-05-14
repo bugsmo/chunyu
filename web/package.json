@@ -1,0 +1,75 @@
+{
+  "name": "vite_vue3_ts_antdv4_unocss_template",
+  "author": "bugsmo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "eslint": "eslint src --ext .js,.vue,.ts,.jsx,.tsx --ignore-path .gitignore --fix",
+    "prettier": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "lint:style": "stylelint \"./**/*.{css,less,vue,html}\" --fix",
+    "commit": "git-cz",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged",
+    "commitlint": "commitlint --config .commitlint.config.cjs -e -V"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
+    }
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "4.x",
+    "axios": "^1.6.8",
+    "openapi-fetch": "^0.9.5",
+    "pinia": "^2.1.7",
+    "unocss": "^0.59.4",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^9.1.1",
+    "@iconify/json": "^2.2.206",
+    "@types/node": "^20.12.8",
+    "@unocss/preset-icons": "^0.59.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "commitizen": "^4.3.0",
+    "commitlint": "^19.3.0",
+    "commitlint-config-cz": "^0.13.3",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-vue": "^9.25.0",
+    "globals": "^15.1.0",
+    "husky": "8.0.3",
+    "lint-staged": "^15.2.2",
+    "openapi-typescript": "^6.7.5",
+    "postcss": "^8.4.38",
+    "postcss-html": "^1.6.0",
+    "postcss-less": "^6.0.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.5.0",
+    "stylelint-config-recommended-less": "^3.0.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-less": "^3.0.1",
+    "stylelint-order": "^6.0.4",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0",
+    "unplugin-icons": "^0.19.0",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.0",
+    "vue-global-api": "^0.4.1",
+    "vue-tsc": "^2.0.6"
+  }
+}
