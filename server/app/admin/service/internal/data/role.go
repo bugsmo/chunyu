@@ -12,7 +12,7 @@ import (
 	"github.com/bugsmo/chunyu/app/admin/service/internal/data/ent"
 	"github.com/bugsmo/chunyu/app/admin/service/internal/data/ent/role"
 
-	v1 "github.com/bugsmo/chunyu/gen/api/go/user/service/v1"
+	v1 "github.com/bugsmo/chunyu/api/gen/go/user/service/v1"
 	pagination "github.com/bugsmo/cy/contrib/kratos/bootstrap/gen/api/go/pagination/v1"
 )
 

@@ -7,9 +7,9 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"google.golang.org/protobuf/types/known/emptypb"
 
+	adminV1 "github.com/bugsmo/chunyu/api/gen/go/admin/service/v1"
+	userV1 "github.com/bugsmo/chunyu/api/gen/go/user/service/v1"
 	"github.com/bugsmo/chunyu/app/admin/service/internal/data"
-	adminV1 "github.com/bugsmo/chunyu/gen/api/go/admin/service/v1"
-	userV1 "github.com/bugsmo/chunyu/gen/api/go/user/service/v1"
 
 	pagination "github.com/bugsmo/cy/contrib/kratos/bootstrap/gen/api/go/pagination/v1"
 

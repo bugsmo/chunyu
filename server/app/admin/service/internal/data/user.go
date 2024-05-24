@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"entgo.io/ent/dialect/sql"
+	v1 "github.com/bugsmo/chunyu/api/gen/go/user/service/v1"
 	"github.com/bugsmo/chunyu/app/admin/service/internal/data/ent"
 	"github.com/bugsmo/chunyu/app/admin/service/internal/data/ent/user"
-	v1 "github.com/bugsmo/chunyu/gen/api/go/user/service/v1"
 	pagination "github.com/bugsmo/cy/contrib/kratos/bootstrap/gen/api/go/pagination/v1"
 	entgo "github.com/bugsmo/cy/contrib/orm/entgo/query"
 	entgoUpdate "github.com/bugsmo/cy/contrib/orm/entgo/update"

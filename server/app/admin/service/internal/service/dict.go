@@ -8,8 +8,8 @@ import (
 
 	"github.com/bugsmo/chunyu/app/admin/service/internal/data"
 
-	adminV1 "github.com/bugsmo/chunyu/gen/api/go/admin/service/v1"
-	systemV1 "github.com/bugsmo/chunyu/gen/api/go/system/service/v1"
+	adminV1 "github.com/bugsmo/chunyu/api/gen/go/admin/service/v1"
+	systemV1 "github.com/bugsmo/chunyu/api/gen/go/system/service/v1"
 
 	pagination "github.com/bugsmo/cy/contrib/kratos/bootstrap/gen/api/go/pagination/v1"
 )

@@ -23,7 +23,7 @@ import (
 	"github.com/bugsmo/chunyu/app/admin/service/cmd/server/assets"
 	"github.com/bugsmo/chunyu/app/admin/service/internal/service"
 
-	adminV1 "github.com/bugsmo/chunyu/gen/api/go/admin/service/v1"
+	adminV1 "github.com/bugsmo/chunyu/api/gen/go/admin/service/v1"
 	"github.com/bugsmo/chunyu/pkg/middleware/auth"
 )
 

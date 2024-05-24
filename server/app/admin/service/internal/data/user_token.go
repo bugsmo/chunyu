@@ -7,13 +7,12 @@ import (
 	"strconv"
 	"time"
 
+	userV1 "github.com/bugsmo/chunyu/api/gen/go/user/service/v1"
 	authnEngine "github.com/bugsmo/cy/contrib/kratos/authn/engine"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/gofrs/uuid"
 	"github.com/redis/go-redis/v9"
-
-	userV1 "github.com/bugsmo/chunyu/gen/api/go/user/service/v1"
 )
 
 type UserTokenRepo struct {

@@ -14,7 +14,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=@Abcd123456
-      - POSTGRES_DB=kratos_monolithic_demo
+      - POSTGRES_DB=kratos_monolithic
 
   redis:
     image: docker.io/bitnami/redis:latest
